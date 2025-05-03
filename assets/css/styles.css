@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    --primary-font-family: "Poppins", "sans-serif";
+    --secondary-font-family: "Sora", "sans-serif";
+}
+
+a,
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--primary-font-family)
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-family: var(--secondary-font-family);
+}
